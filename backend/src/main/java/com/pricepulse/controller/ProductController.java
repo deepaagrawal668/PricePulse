@@ -22,6 +22,7 @@ public class ProductController {
 
     @PostMapping
     public Product addProduct(@RequestBody Product product) {
+        System.out.println("Received: " + product.getName() + ", " + product.getCategory() + ", " + product.getUrl());
         return productService.addProduct(product);
     }
 }
