@@ -1,0 +1,59 @@
+# ---- General ----
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# ---- Java / Spring Boot ----
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.idea/
+.vscode/
+*.project
+*.classpath
+*.settings/
+.mvn/
+!mvnw
+!mvnw.cmd
+
+# ---- React / Node.js ----
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ---- Python / ML Service ----
+ml-service/__pycache__/
+ml-service/*.pyc
+ml-service/*.pyo
+ml-service/.pytest_cache/
+ml-service/.venv/
+ml-service/venv/
+ml-service/env/
+ml-service/.env
+
+# ---- OS / Editor files ----
+*.bak
+*.orig
+*.rej
+*.suo
+*.user
+*.rsuser
+*.aps
+*.ncb
+*.sdf
+*.cache
+*.pdb
+
+# ---- Deployment / Scripts ----
+deployment/*.log
+deployment/*.tmp
+scripts/*.log
+scripts/*.tmp
